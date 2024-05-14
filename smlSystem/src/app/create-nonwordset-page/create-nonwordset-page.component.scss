@@ -10,6 +10,7 @@
     background-color: #c3d8e7;
     width: 100%;
     justify-content: center;
+    margin-bottom: 140px;
 }
 
 .card-item {
@@ -23,9 +24,48 @@ mat-card {
     align-items: center;
 }
 
-.action-buttons {
-    position: absolute;
-    padding: 10px;
-    bottom: 10px; 
-    right: 10px; 
+mat-divider {
+    height: 10px;
+    color: black;
 }
+
+mat-form-field {
+    padding: 10px;
+}
+
+.form-text {
+    display: block;
+    text-align: center;
+}
+
+.patient,
+.target-consonants,
+.target-vowels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.consonants,
+.vowels {
+    padding: 25px;
+}
+
+
+
+
+
+
+// .action-buttons {
+//     position: absolute;
+//     padding: 10px;
+//     bottom: 10px; 
+//     right: 10px; 
+// }
