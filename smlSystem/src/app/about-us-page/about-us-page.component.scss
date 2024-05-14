@@ -1,0 +1,19 @@
+.about-us-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    padding: 40px;
+}
+
+.card-item {
+    width: 1250px;
+}
+
+mat-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
