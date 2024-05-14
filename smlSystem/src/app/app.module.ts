@@ -12,6 +12,8 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { AboutUsPageComponent } from './about-us-page/about-us-page.component';
+import { UserManualPageComponent } from './user-manual-page/user-manual-page.component';
+import { CreateNonwordsetPageComponent } from './create-nonwordset-page/create-nonwordset-page.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { AboutUsPageComponent } from './about-us-page/about-us-page.component';
     ToolbarComponent,
     HomepageComponent,
     AboutUsPageComponent,
+    UserManualPageComponent,
+    CreateNonwordsetPageComponent,
   ],
   imports: [
     BrowserModule,
