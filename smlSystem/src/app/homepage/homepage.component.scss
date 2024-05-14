@@ -4,11 +4,20 @@
 }
 
 .card-container {
+    margin-top: 40px;
     display: flex;
     padding: 40px;
+    background-color: #c3d8e7;
+    width: 100%;
+    justify-content: space-between;
+
 }
 
 .card-item {
     width: 400px;
-    margin-right: 20px;
+    // margin-right: 20px;
+}
+
+mat-card {
+    
 }
