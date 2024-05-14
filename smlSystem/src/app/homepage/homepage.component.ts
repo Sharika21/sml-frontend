@@ -12,4 +12,12 @@ export class HomepageComponent {
   navigateToAboutUs() {
     this.router.navigate(['/about-us']);
   }
+
+  navigateToUserManual() {
+    this.router.navigate(['/user-manual']);
+  }
+
+  navigateToCreateNonwordSet() {
+    this.router.navigate(['/create-nonword-set']);
+  }
 }
