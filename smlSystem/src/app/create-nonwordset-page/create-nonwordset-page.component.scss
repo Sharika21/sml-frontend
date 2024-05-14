@@ -1,0 +1,27 @@
+.nonword-set-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    padding: 40px;
+}
+
+.card-item {
+    width: 1250px;
+    position: relative;
+}
+
+mat-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-buttons {
+    position: absolute;
+    padding: 10px;
+    bottom: 10px; 
+    right: 10px; 
+}
