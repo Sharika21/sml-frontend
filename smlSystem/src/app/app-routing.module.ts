@@ -6,6 +6,7 @@ import { UserManualPageComponent } from './user-manual-page/user-manual-page.com
 import { CreateNonwordsetPageComponent } from './create-nonwordset-page/create-nonwordset-page.component';
 import { AboutSmlPageComponent } from './about-sml-page/about-sml-page.component';
 import { LoginPageComponent } from './login-page/login-page.component';
+import { CreateAccountPageComponent } from './create-account-page/create-account-page.component';
 
 const routes: Routes = [
   { path: '', component: LoginPageComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'create-nonword-set', component: CreateNonwordsetPageComponent },
   { path: 'about-sml', component: AboutSmlPageComponent },
   { path: 'home', component: HomepageComponent },
+  { path: 'create-account', component: CreateAccountPageComponent },
 ];
 
 @NgModule({

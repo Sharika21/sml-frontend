@@ -7,9 +7,13 @@ import { Router } from '@angular/router';
   styleUrl: './login-page.component.scss'
 })
 export class LoginPageComponent {
-  constructor(private router: Router) {}
-  
+  constructor(private router: Router) { }
+
   signIn() {
     this.router.navigate(['/home']);
-}
+  }
+
+  signUp() {
+    this.router.navigate(['/create-account']);
+  }
 }
