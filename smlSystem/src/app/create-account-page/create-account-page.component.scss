@@ -5,12 +5,13 @@
 }
 
 .card-container {
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     padding: 35px;
     background-color: #c3d8e7;
     width: 100%;
     justify-content: center;
+    height: 430px;
 }
 
 .card-item {
@@ -28,6 +29,10 @@
     padding: 10px;
 }
 
+.username-action, .password-action {
+    padding: 5px;
+}
+
 .create-card mat-card-title {
     font-size: 24px;
     font-weight: small;
@@ -43,11 +48,11 @@
 .button-cluster {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
 }
 
 .create-button {
-    width: 100%;
-    margin-bottom: 10px;
+    width: 130%;
+    margin-bottom: 20px;
     background-color: #2F5DBC;
 }
