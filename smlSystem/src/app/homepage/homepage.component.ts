@@ -9,8 +9,8 @@ import { Router } from '@angular/router';
 export class HomepageComponent {
   constructor(private router: Router) {}
 
-  navigateToAboutUs() {
-    this.router.navigate(['/about-us']);
+  navigateToAboutSml() {
+    this.router.navigate(['/about-sml']);
   }
 
   navigateToUserManual() {
