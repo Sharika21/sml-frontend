@@ -9,6 +9,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatRadioModule } from '@angular/material/radio';
+import { MatIconModule } from '@angular/material/icon';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -49,7 +50,8 @@ import { CreateAccountPageComponent } from './create-account-page/create-account
     MatFormFieldModule,
     MatSelectModule,
     MatDividerModule,
-    MatRadioModule
+    MatRadioModule,
+    MatIconModule
   ],
   providers: [
     provideAnimationsAsync()
