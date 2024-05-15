@@ -20,4 +20,17 @@ mat-card {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px;
+}
+
+mat-card-subtitle {
+    padding: 20px;
+}
+
+mat-card-content {
+    margin-bottom: 20px;
+}
+
+.full-width-content {
+    width: 100%;
 }
