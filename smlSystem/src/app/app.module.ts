@@ -21,6 +21,7 @@ import { UserManualPageComponent } from './user-manual-page/user-manual-page.com
 import { CreateNonwordsetPageComponent } from './create-nonwordset-page/create-nonwordset-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutSmlPageComponent } from './about-sml-page/about-sml-page.component';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { AboutSmlPageComponent } from './about-sml-page/about-sml-page.component
     CreateNonwordsetPageComponent,
     FooterComponent,
     AboutSmlPageComponent,
+    LoginPageComponent,
   ],
   imports: [
     BrowserModule,
