@@ -10,6 +10,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatIconModule } from '@angular/material/icon';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -55,7 +56,8 @@ import { NonwordSetToolbarComponent } from './nonword-set-toolbar/nonword-set-to
     MatSelectModule,
     MatDividerModule,
     MatRadioModule,
-    MatIconModule
+    MatIconModule,
+    MatSidenavModule,
   ],
   providers: [
     provideAnimationsAsync()

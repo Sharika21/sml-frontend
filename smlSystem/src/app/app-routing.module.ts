@@ -10,6 +10,7 @@ import { CreateAccountPageComponent } from './create-account-page/create-account
 import { ContactUsPageComponent } from './contact-us-page/contact-us-page.component';
 import { NonwordSetToolbarComponent } from './nonword-set-toolbar/nonword-set-toolbar.component';
 
+
 const routes: Routes = [
   { path: '', component: LoginPageComponent },
   { path: 'about-us', component: AboutUsPageComponent },
@@ -18,7 +19,7 @@ const routes: Routes = [
   { path: 'about-sml', component: AboutSmlPageComponent },
   { path: 'home', component: HomepageComponent },
   { path: 'create-account', component: CreateAccountPageComponent },
-  { path: 'contact-us', component: ContactUsPageComponent}
+  { path: 'contact-us', component: ContactUsPageComponent},
   { path: 'toolbar', component: NonwordSetToolbarComponent}
 ];
 
