@@ -1,4 +1,4 @@
-.about-sml-container {
+.contact-us-container {
     display: flex;
     justify-content: center;
 }
@@ -10,29 +10,20 @@
     background-color: #c3d8e7;
     width: 100%;
     justify-content: center;
-    margin-bottom: 100px;
+    // margin-bottom: 100px;
 }
 
 .card-item {
-    width: 1250px;
+    // width: 1250px;
 }
 
 mat-card {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
     border: 10px solid  rgb(255, 149, 62);
-}
-
-mat-card-subtitle {
     padding: 20px;
 }
 
 mat-card-content {
-    margin-bottom: 20px;
-}
-
-.full-width-content {
-    width: 100%;
 }

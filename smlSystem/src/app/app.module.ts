@@ -24,6 +24,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutSmlPageComponent } from './about-sml-page/about-sml-page.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { CreateAccountPageComponent } from './create-account-page/create-account-page.component';
+import { ContactUsPageComponent } from './contact-us-page/contact-us-page.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { CreateAccountPageComponent } from './create-account-page/create-account
     AboutSmlPageComponent,
     LoginPageComponent,
     CreateAccountPageComponent,
+    ContactUsPageComponent,
   ],
   imports: [
     BrowserModule,
