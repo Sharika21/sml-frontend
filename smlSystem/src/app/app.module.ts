@@ -25,6 +25,7 @@ import { AboutSmlPageComponent } from './about-sml-page/about-sml-page.component
 import { LoginPageComponent } from './login-page/login-page.component';
 import { CreateAccountPageComponent } from './create-account-page/create-account-page.component';
 import { ContactUsPageComponent } from './contact-us-page/contact-us-page.component';
+import { NonwordSetToolbarComponent } from './nonword-set-toolbar/nonword-set-toolbar.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { ContactUsPageComponent } from './contact-us-page/contact-us-page.compon
     LoginPageComponent,
     CreateAccountPageComponent,
     ContactUsPageComponent,
+    NonwordSetToolbarComponent,
   ],
   imports: [
     BrowserModule,

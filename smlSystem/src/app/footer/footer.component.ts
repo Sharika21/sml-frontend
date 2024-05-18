@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 export class FooterComponent {
   constructor(private router: Router) {}
 
-  navigateToAboutSml() {
+  navigateToContactUs() {
     this.router.navigate(['/contact-us']);
   }
 }

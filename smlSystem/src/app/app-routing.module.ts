@@ -8,6 +8,7 @@ import { AboutSmlPageComponent } from './about-sml-page/about-sml-page.component
 import { LoginPageComponent } from './login-page/login-page.component';
 import { CreateAccountPageComponent } from './create-account-page/create-account-page.component';
 import { ContactUsPageComponent } from './contact-us-page/contact-us-page.component';
+import { NonwordSetToolbarComponent } from './nonword-set-toolbar/nonword-set-toolbar.component';
 
 const routes: Routes = [
   { path: '', component: LoginPageComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'home', component: HomepageComponent },
   { path: 'create-account', component: CreateAccountPageComponent },
   { path: 'contact-us', component: ContactUsPageComponent}
+  { path: 'toolbar', component: NonwordSetToolbarComponent}
 ];
 
 @NgModule({
